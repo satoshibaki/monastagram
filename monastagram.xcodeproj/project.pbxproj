@@ -3,13 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32E5F9E1F06B5F360240AED2 /* Pods_monastagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C5D8C7A0CAAB820746B04D /* Pods_monastagram.framework */; };
+		C977124521DE9A14C3F0E00C /* Pods_monastagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03044F12685B8D2F5BBFC609 /* Pods_monastagram.framework */; };
 		FD6DE1CB25E1EEFD00481946 /* TabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DE1CA25E1EEFD00481946 /* TabBarControllerViewController.swift */; };
 		FD6DE1CE25E1F46F00481946 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD6DE1CD25E1F46F00481946 /* GoogleService-Info.plist */; };
+		FD6DE21D25E21D3000481946 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DE21C25E21D3000481946 /* Const.swift */; };
+		FD6DE22025E21FAB00481946 /* PostDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DE21F25E21FAB00481946 /* PostDate.swift */; };
+		FD6DE22325E2204C00481946 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6DE22225E2204C00481946 /* PostTableViewCell.xib */; };
+		FD6DE22625E2207700481946 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DE22525E2207700481946 /* PostTableViewCell.swift */; };
+		FD6DE22D25E226CA00481946 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DE22C25E226CA00481946 /* MessageViewController.swift */; };
 		FDBA4D3D25E1E2FF0050CD08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA4D3C25E1E2FF0050CD08 /* AppDelegate.swift */; };
 		FDBA4D3F25E1E2FF0050CD08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA4D3E25E1E2FF0050CD08 /* SceneDelegate.swift */; };
 		FDBA4D4425E1E2FF0050CD08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBA4D4225E1E2FF0050CD08 /* Main.storyboard */; };
@@ -23,11 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8249FF472C4F976F4D0FC233 /* Pods-monastagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monastagram.release.xcconfig"; path = "Target Support Files/Pods-monastagram/Pods-monastagram.release.xcconfig"; sourceTree = "<group>"; };
-		D4C5D8C7A0CAAB820746B04D /* Pods_monastagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_monastagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFB161F34E5C91E369340B4B /* Pods-monastagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monastagram.debug.xcconfig"; path = "Target Support Files/Pods-monastagram/Pods-monastagram.debug.xcconfig"; sourceTree = "<group>"; };
+		03044F12685B8D2F5BBFC609 /* Pods_monastagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_monastagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4E0AA8512D3F04D9366481 /* Pods-monastagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monastagram.debug.xcconfig"; path = "Target Support Files/Pods-monastagram/Pods-monastagram.debug.xcconfig"; sourceTree = "<group>"; };
+		E77D5B7A57B64280EC669D4A /* Pods-monastagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monastagram.release.xcconfig"; path = "Target Support Files/Pods-monastagram/Pods-monastagram.release.xcconfig"; sourceTree = "<group>"; };
 		FD6DE1CA25E1EEFD00481946 /* TabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerViewController.swift; sourceTree = "<group>"; };
 		FD6DE1CD25E1F46F00481946 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD6DE21C25E21D3000481946 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		FD6DE21F25E21FAB00481946 /* PostDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDate.swift; sourceTree = "<group>"; };
+		FD6DE22225E2204C00481946 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		FD6DE22525E2207700481946 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		FD6DE22C25E226CA00481946 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		FDBA4D3925E1E2FF0050CD08 /* monastagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = monastagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBA4D3C25E1E2FF0050CD08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDBA4D3E25E1E2FF0050CD08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,17 +57,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E5F9E1F06B5F360240AED2 /* Pods_monastagram.framework in Frameworks */,
+				C977124521DE9A14C3F0E00C /* Pods_monastagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B06022936BA38C6D5EF88FE7 /* Frameworks */ = {
+		84B2D036836C11A0F2D566E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D4C5D8C7A0CAAB820746B04D /* Pods_monastagram.framework */,
+				03044F12685B8D2F5BBFC609 /* Pods_monastagram.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -65,8 +75,8 @@
 		B74B7C69A4A2CE1797A33B15 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EFB161F34E5C91E369340B4B /* Pods-monastagram.debug.xcconfig */,
-				8249FF472C4F976F4D0FC233 /* Pods-monastagram.release.xcconfig */,
+				7C4E0AA8512D3F04D9366481 /* Pods-monastagram.debug.xcconfig */,
+				E77D5B7A57B64280EC669D4A /* Pods-monastagram.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -77,7 +87,7 @@
 				FDBA4D3B25E1E2FF0050CD08 /* monastagram */,
 				FDBA4D3A25E1E2FF0050CD08 /* Products */,
 				B74B7C69A4A2CE1797A33B15 /* Pods */,
-				B06022936BA38C6D5EF88FE7 /* Frameworks */,
+				84B2D036836C11A0F2D566E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,12 +103,17 @@
 			isa = PBXGroup;
 			children = (
 				FDBA4D3C25E1E2FF0050CD08 /* AppDelegate.swift */,
+				FD6DE22225E2204C00481946 /* PostTableViewCell.xib */,
+				FD6DE22525E2207700481946 /* PostTableViewCell.swift */,
 				FDBA4D5325E1E4A90050CD08 /* LoginViewController.swift */,
+				FD6DE21C25E21D3000481946 /* Const.swift */,
 				FDBA4D5625E1E4C90050CD08 /* HomeViewController.swift */,
 				FDBA4D5925E1E4E70050CD08 /* ImageSelectViewController.swift */,
+				FD6DE21F25E21FAB00481946 /* PostDate.swift */,
 				FDBA4D5F25E1E5120050CD08 /* SettingViewController.swift */,
 				FDBA4D5C25E1E4FE0050CD08 /* PostViewController.swift */,
 				FDBA4D3E25E1E2FF0050CD08 /* SceneDelegate.swift */,
+				FD6DE22C25E226CA00481946 /* MessageViewController.swift */,
 				FD6DE1CA25E1EEFD00481946 /* TabBarControllerViewController.swift */,
 				FDBA4D4225E1E2FF0050CD08 /* Main.storyboard */,
 				FDBA4D4525E1E2FF0050CD08 /* Assets.xcassets */,
@@ -116,11 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDBA4D4D25E1E2FF0050CD08 /* Build configuration list for PBXNativeTarget "monastagram" */;
 			buildPhases = (
-				FC1F90A7FE1A1822579C83A6 /* [CP] Check Pods Manifest.lock */,
+				BC9D112DFFB39842F81D2B9B /* [CP] Check Pods Manifest.lock */,
 				FDBA4D3525E1E2FF0050CD08 /* Sources */,
 				FDBA4D3625E1E2FF0050CD08 /* Frameworks */,
 				FDBA4D3725E1E2FF0050CD08 /* Resources */,
-				8B23E2A672DDA9D6601FA749 /* [CP] Embed Pods Frameworks */,
+				22809FFE39821A4AB545559D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBA4D4925E1E2FF0050CD08 /* LaunchScreen.storyboard in Resources */,
+				FD6DE22325E2204C00481946 /* PostTableViewCell.xib in Resources */,
 				FD6DE1CE25E1F46F00481946 /* GoogleService-Info.plist in Resources */,
 				FDBA4D4625E1E2FF0050CD08 /* Assets.xcassets in Resources */,
 				FDBA4D4425E1E2FF0050CD08 /* Main.storyboard in Resources */,
@@ -178,7 +194,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8B23E2A672DDA9D6601FA749 /* [CP] Embed Pods Frameworks */ = {
+		22809FFE39821A4AB545559D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,7 +211,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-monastagram/Pods-monastagram-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC1F90A7FE1A1822579C83A6 /* [CP] Check Pods Manifest.lock */ = {
+		BC9D112DFFB39842F81D2B9B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,14 +240,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6DE22625E2207700481946 /* PostTableViewCell.swift in Sources */,
 				FDBA4D5A25E1E4E70050CD08 /* ImageSelectViewController.swift in Sources */,
 				FDBA4D5725E1E4C90050CD08 /* HomeViewController.swift in Sources */,
 				FDBA4D5D25E1E4FE0050CD08 /* PostViewController.swift in Sources */,
 				FDBA4D6025E1E5120050CD08 /* SettingViewController.swift in Sources */,
 				FDBA4D5425E1E4A90050CD08 /* LoginViewController.swift in Sources */,
+				FD6DE22025E21FAB00481946 /* PostDate.swift in Sources */,
 				FDBA4D3D25E1E2FF0050CD08 /* AppDelegate.swift in Sources */,
 				FD6DE1CB25E1EEFD00481946 /* TabBarControllerViewController.swift in Sources */,
 				FDBA4D3F25E1E2FF0050CD08 /* SceneDelegate.swift in Sources */,
+				FD6DE22D25E226CA00481946 /* MessageViewController.swift in Sources */,
+				FD6DE21D25E21D3000481946 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +395,7 @@
 		};
 		FDBA4D4E25E1E2FF0050CD08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFB161F34E5C91E369340B4B /* Pods-monastagram.debug.xcconfig */;
+			baseConfigurationReference = 7C4E0AA8512D3F04D9366481 /* Pods-monastagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,7 +415,7 @@
 		};
 		FDBA4D4F25E1E2FF0050CD08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8249FF472C4F976F4D0FC233 /* Pods-monastagram.release.xcconfig */;
+			baseConfigurationReference = E77D5B7A57B64280EC669D4A /* Pods-monastagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
