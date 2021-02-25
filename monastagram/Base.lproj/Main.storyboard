@@ -62,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9tI-zB-8G6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="45" y="797"/>
+            <point key="canvasLocation" x="96" y="797"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="sNy-1x-HOf">
@@ -215,27 +215,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="コメント入力" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V87-4H-y0u" userLabel="Comment Label">
-                                <rect key="frame" x="30" y="64" width="300" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="3V7-6G-weQ"/>
-                                </constraints>
+                                <rect key="frame" x="10" y="64" width="394" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BqY-rD-kbW">
-                                <rect key="frame" x="30" y="105" width="300" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="arz-Se-wwA"/>
-                                </constraints>
+                                <rect key="frame" x="10" y="105" width="394" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOI-HK-vbR">
-                                <rect key="frame" x="30" y="159" width="300" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="lOr-6P-vxT"/>
-                                </constraints>
+                                <rect key="frame" x="10" y="159" width="394" height="40"/>
                                 <state key="normal" title="投稿" backgroundImage="btn"/>
                                 <connections>
                                     <action selector="messagepost:" destination="Ktd-dx-CjS" eventType="touchUpInside" id="iZR-ON-EXd"/>
@@ -245,12 +236,17 @@
                         <viewLayoutGuide key="safeArea" id="3Xz-bB-TuR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="V87-4H-y0u" firstAttribute="leading" secondItem="3Xz-bB-TuR" secondAttribute="leading" constant="30" id="3xo-1S-Mia"/>
-                            <constraint firstItem="GOI-HK-vbR" firstAttribute="leading" secondItem="V87-4H-y0u" secondAttribute="leading" id="L35-b8-zsh"/>
-                            <constraint firstItem="BqY-rD-kbW" firstAttribute="top" secondItem="V87-4H-y0u" secondAttribute="bottom" constant="20" id="MOP-Vo-6Kg"/>
-                            <constraint firstItem="V87-4H-y0u" firstAttribute="top" secondItem="3Xz-bB-TuR" secondAttribute="top" constant="20" id="baH-bH-exp"/>
-                            <constraint firstItem="BqY-rD-kbW" firstAttribute="leading" secondItem="V87-4H-y0u" secondAttribute="leading" id="lDO-bH-nIc"/>
-                            <constraint firstItem="GOI-HK-vbR" firstAttribute="top" secondItem="BqY-rD-kbW" secondAttribute="bottom" constant="20" id="lnM-oa-kzk"/>
+                            <constraint firstItem="BqY-rD-kbW" firstAttribute="top" secondItem="V87-4H-y0u" secondAttribute="bottom" constant="20" id="1DF-Mf-7ID"/>
+                            <constraint firstItem="3Xz-bB-TuR" firstAttribute="trailing" secondItem="GOI-HK-vbR" secondAttribute="trailing" constant="10" id="6S9-YD-Uzf"/>
+                            <constraint firstItem="V87-4H-y0u" firstAttribute="top" secondItem="3Xz-bB-TuR" secondAttribute="top" constant="20" id="79Q-tH-oCz"/>
+                            <constraint firstItem="BqY-rD-kbW" firstAttribute="leading" secondItem="3Xz-bB-TuR" secondAttribute="leading" constant="10" id="95n-8J-tZw"/>
+                            <constraint firstItem="V87-4H-y0u" firstAttribute="leading" secondItem="3Xz-bB-TuR" secondAttribute="leading" constant="10" id="A0N-Z8-2ue"/>
+                            <constraint firstItem="GOI-HK-vbR" firstAttribute="top" secondItem="BqY-rD-kbW" secondAttribute="bottom" constant="20" id="IXX-rt-W8n"/>
+                            <constraint firstItem="GOI-HK-vbR" firstAttribute="leading" secondItem="V87-4H-y0u" secondAttribute="leading" id="NAL-sp-JyJ"/>
+                            <constraint firstItem="3Xz-bB-TuR" firstAttribute="trailing" secondItem="BqY-rD-kbW" secondAttribute="trailing" constant="10" id="OIk-TW-Z25"/>
+                            <constraint firstItem="GOI-HK-vbR" firstAttribute="leading" secondItem="3Xz-bB-TuR" secondAttribute="leading" constant="10" id="beK-fv-sC9"/>
+                            <constraint firstItem="3Xz-bB-TuR" firstAttribute="trailing" secondItem="V87-4H-y0u" secondAttribute="trailing" constant="10" id="dHO-Sn-Kt8"/>
+                            <constraint firstItem="BqY-rD-kbW" firstAttribute="leading" secondItem="V87-4H-y0u" secondAttribute="leading" id="xl3-kJ-qGy"/>
                         </constraints>
                     </view>
                     <connections>
@@ -291,7 +287,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BQP-2y-Hxk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-720" y="797"/>
+            <point key="canvasLocation" x="-623" y="797"/>
         </scene>
         <!--設定-->
         <scene sceneID="Zn2-RW-kbc">
@@ -348,12 +344,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q4E-g8-Ssi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="726" y="797"/>
+            <point key="canvasLocation" x="820" y="797"/>
         </scene>
-        <!--Tab Bar Controller View Controller-->
+        <!--Tab Bar Controller-->
         <scene sceneID="e6I-v6-Q0S">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6Tf-x4-Hui" customClass="TabBarControllerViewController" customModule="monastagram" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6Tf-x4-Hui" customClass="TabBarController" customModule="monastagram" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pQe-Gh-y64">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
